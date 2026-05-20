@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Message Dialog</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Open me :></h1>
+
+<button class="open-btn" onclick="openDialog()">Click Me</button>
+
+<div class="overlay" id="overlay">
+  <div class="dialog">
+
+    <h2>Message</h2>
+    <div id="messageText">HI PAHINIH GRASYA MEOW 😂</div>
+
+    <button class="btn next-btn" onclick="nextMessage()">Next</button>
+    <button class="btn close-btn" onclick="closeDialog()">Close</button>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
