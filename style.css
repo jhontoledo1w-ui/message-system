@@ -1,0 +1,69 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  margin: 0;
+  padding: 40px 15px;
+  background: #f0f0f0;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+.open-btn {
+  padding: 15px 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  background: #4CAF50;
+  color: white;
+  width: 80%;
+  max-width: 300px;
+}
+
+/* overlay */
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  padding: 20px;
+  z-index: 9999;
+}
+
+/* dialog */
+.dialog {
+  background: white;
+  width: 90%;
+  max-width: 350px;
+  margin: 25% auto;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+#messageText {
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.btn {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.next-btn {
+  background: #2196F3;
+  color: white;
+}
+
+.close-btn {
+  background: red;
+  color: white;
+}
